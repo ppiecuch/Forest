@@ -32,7 +32,7 @@
 
 import Foundation
 import SwiftProtobuf
-
+import ForestCore
 
 public extension ServiceTaskBuilding {
 

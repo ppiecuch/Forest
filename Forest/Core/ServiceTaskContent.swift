@@ -39,14 +39,14 @@ public enum ServiceTaskContent {
     case data(Data)
     case file(URL)
     
-    init?(_ data: Data?) {
+    public init?(_ data: Data?) {
         guard let data = data else {
             return nil
         }
         self = .data(data)
     }
     
-    init?(_ url: URL?) {
+    public init?(_ url: URL?) {
         guard let url = url else {
             return nil
         }

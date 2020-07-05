@@ -32,6 +32,7 @@
 
 import Foundation
 import SwiftProtobuf
+import ForestCore
 
 
 /// A handler that expects and parse response with protobuf message. Completion block returns deserialized message of expected type on success
